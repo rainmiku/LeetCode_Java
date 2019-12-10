@@ -4,11 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC915();
+        var solution = new LC228();
 
-        int[] A = {1,1,1};
+        int[] A = {};
 
-        System.out.println(solution.partitionDisjoint(A));
+        System.out.println(solution.summaryRanges(A));
 
     }
 }

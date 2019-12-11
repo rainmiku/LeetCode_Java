@@ -4,11 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC313();
+        var solution = new LC523();
 
-        int[] A = {2,7,13,19};
+        int[] A = {0,0};
 
-        System.out.println(solution.nthSuperUglyNumber(12,A));
+        System.out.println(solution.checkSubarraySumInOn(A,-1));
+
+        System.out.println(0 % -1);
 
     }
 }

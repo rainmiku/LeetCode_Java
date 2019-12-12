@@ -36,6 +36,7 @@ public class LC071 {
             result += resulyStack.pop();
         }
 
+
         return result;
     }
 }

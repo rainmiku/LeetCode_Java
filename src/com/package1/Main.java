@@ -4,15 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC086();
-        int[] nums = {1,3,-1,5,2,1};
+        var solution = new LC128();
+        int[] nums = {100, 4, 200, 1, 3, 2};
 
-        for (var num: nums) {
-            solution.add(num);
-        }
-
-
-        var result = solution.partition(solution.head,3);
+        System.out.println(solution.longestConsecutive(nums));
 
         System.out.println("done");
 

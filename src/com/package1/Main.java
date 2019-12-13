@@ -1,13 +1,17 @@
 package com.package1;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC128();
-        int[] nums = {100, 4, 200, 1, 3, 2};
+        var solution = new LC832();
+        int[][] nums = {{1,1,0},{1,0,1},{0,0,0}};
 
-        System.out.println(solution.longestConsecutive(nums));
+
+
+        System.out.println(Arrays.deepToString(solution.flipAndInvertImage(nums)));
 
         System.out.println("done");
 

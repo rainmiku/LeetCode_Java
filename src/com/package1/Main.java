@@ -6,12 +6,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC1224();
-        int[] nums = {1,2};
+        var solution = new LC138();
+       // int[] nums = {1,2};
 
+        var head = new Node(1,null,null);
+        var second = new Node (2, null,null);
+        head.next = second;
+        head.random = second;
+        second.random = second;
 
+        var node = solution.copyRandomList(head);
 
-        System.out.println(solution.maxEqualFreq(nums));
 
         System.out.println("done");
 

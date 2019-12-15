@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC832();
-        int[][] nums = {{1,1,0},{1,0,1},{0,0,0}};
+        var solution = new LC1224();
+        int[] nums = {1,2};
 
 
 
-        System.out.println(Arrays.deepToString(solution.flipAndInvertImage(nums)));
+        System.out.println(solution.maxEqualFreq(nums));
 
         System.out.println("done");
 

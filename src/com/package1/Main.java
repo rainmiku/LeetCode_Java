@@ -6,19 +6,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC138();
+        var solution = new LC797();
        // int[] nums = {1,2};
+        int[][] graph = {};
 
-        var head = new Node(1,null,null);
-        var second = new Node (2, null,null);
-        head.next = second;
-        head.random = second;
-        second.random = second;
-
-        var node = solution.copyRandomList(head);
+        System.out.println(solution.allPathsSourceTarget(graph));
 
 
-        System.out.println("done");
+        System.out.println("ddd");
+
+        
 
 
 

@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC801();
-       // int[] nums = {1,2};
-        int[] A = {1,3,5,4};
-        int[] B = {1,2,3,7};
+        var solution = new MyCalendar();
 
-        System.out.println(solution.minSwap(A,B));
+        System.out.println(solution.book(10,20));
+        System.out.println(solution.book(15,25));
+        System.out.println(solution.book(20,30));
+
         System.out.println("ddd");
 
     }

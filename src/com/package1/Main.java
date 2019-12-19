@@ -6,13 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC729();
+        var solution = new LC331();
 
-        int[][] input = {{47,50},{33,41},{39,45},{33,42},{25,32},{26,35},{19,25},{3,8},{8,13},{18,27}};
+        String in = "9,3,4,#,#,1,#,#,#,2,#,6,#,#";
 
-        for (int[] time:input) {
-            System.out.println(solution.book(time[0],time[1]));
-        }
+        System.out.println(solution.isValidSerialization(in));
 
         System.out.println("ddd");
 

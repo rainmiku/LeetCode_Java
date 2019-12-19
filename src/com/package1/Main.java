@@ -6,11 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC331();
+        var solution = new LC006();
 
-        String in = "9,3,4,#,#,1,#,#,#,2,#,6,#,#";
+        String s = "PAYPALISHIRING";
+        int numRows = 1;
 
-        System.out.println(solution.isValidSerialization(in));
+        System.out.println(solution.convert(s, numRows));
 
         System.out.println("ddd");
 

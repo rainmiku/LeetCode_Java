@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC1200();
+        var solution = new LC049();
 
-        int[] arr = {4,2,1,3};
+        String[] strs = {"","b",""};
 
 
-        System.out.println(solution.minimumAbsDifference(arr));
+        System.out.println(solution.groupAnagrams(strs));
 
         System.out.println("ddd");
 

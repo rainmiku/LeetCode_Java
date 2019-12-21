@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC049();
+        var solution = new LC821();
 
-        String[] strs = {"","b",""};
+        String str = "aaba";
 
 
-        System.out.println(solution.groupAnagrams(strs));
+        System.out.println(Arrays.toString(solution.shortestToChar(str, 'b')));
 
         System.out.println("ddd");
 

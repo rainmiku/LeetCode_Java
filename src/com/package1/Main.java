@@ -6,10 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC005();
+        var solution = new LC753();
 
 
-        System.out.println(solution.longestPalindrome("aaaa"));
+        System.out.println(solution.crackSafe(2,5));
 
         System.out.println("ddd");
 

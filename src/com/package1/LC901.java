@@ -15,19 +15,17 @@ public class LC901 {
     }
 
     List<Stock> stocks = new ArrayList<>();
-//    public LC901() {
-//    }
 
     public int next(int price) {
-        Stock lastest = new Stock(price,1);
-        stocks.add(lastest);
-        if (stocks.size() == 1) return lastest.span;
+        Stock latest = new Stock(price,1);
+        stocks.add(latest);
+        if (stocks.size() == 1) return latest.span;
         int current = stocks.size()-2;
         while (stocks.get(current).val <= price){
-            lastest.span += stocks.get(current).span;
+            latest.span += stocks.get(current).span;
             current = current - stocks.get(current).span;
             if (current < 0) break;
         }
-        return lastest.span;
+        return latest.span;
     }
 }

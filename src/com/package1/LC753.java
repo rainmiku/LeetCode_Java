@@ -16,7 +16,7 @@ public class LC753 {
         return sequence.toString();
     }
 
-    private boolean dfs(int n, int k, HashSet<String> nodes,  StringBuilder sequence, int maxSize){
+    private boolean dfs(int n, int k, HashSet<String> nodes, StringBuilder sequence, int maxSize){
         if (nodes.size() == maxSize){
             return true;
         }
@@ -29,7 +29,7 @@ public class LC753 {
                 sequence.append(i);
                 nodes.add(suffix);
                 if (dfs(n,k,nodes,sequence,maxSize))
-                    return true;  // jump outside as soon as possible or it will TLE
+                    return true;          // jump outside as soon as possible or it will TLE
                 sequence.deleteCharAt(sequence.length()-1);
                 nodes.remove(suffix);
             }

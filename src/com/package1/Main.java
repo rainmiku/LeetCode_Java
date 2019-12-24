@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC122();
+        var solution = new LC123();
 
-        int[] prices = {7,6,5,4};
+        int[] prices = {3,3,5,0,0,3,1,4};
 
 
         System.out.println(solution.maxProfit(prices));

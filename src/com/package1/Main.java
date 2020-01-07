@@ -6,14 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC321();
+        var solution = new LC594();
 
-        int[] nums1 = {3, 9};
-        int[] nums2 = {8, 9};
-
+        int[] nums = {1,3,2,2,5,2,3,7};
 
 
-        System.out.println(Arrays.toString(solution.maxNumber(nums1,nums2,3)));
+
+        System.out.println(solution.findLHS(nums));
 
         System.out.println("ddd");
 

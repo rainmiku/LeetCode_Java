@@ -6,13 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC594();
+        var solution = new LC621();
 
-        int[] nums = {1,3,2,2,5,2,3,7};
+        char[] tasks = {'A','A','A','B','B','C'};
 
-
-
-        System.out.println(solution.findLHS(nums));
+        System.out.println(solution.leastInterval(tasks,2));
 
         System.out.println("ddd");
 

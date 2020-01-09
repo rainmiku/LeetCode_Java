@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC621();
+        var solution = new LC287();
 
-        char[] tasks = {'A','A','A','B','B','C'};
+        int[] nums = {3,1,1,4,2};
 
-        System.out.println(solution.leastInterval(tasks,2));
+        System.out.println(solution.findDuplicate(nums));
 
         System.out.println("ddd");
 

@@ -8,9 +8,9 @@ public class Main {
 
         var solution = new LC287();
 
-        int[] nums = {3,1,1,4,2};
+        int[] nums = {3,2,1,4,2};
 
-        System.out.println(solution.findDuplicate(nums));
+        System.out.println(solution.findDuplicateLink(nums));
 
         System.out.println("ddd");
 

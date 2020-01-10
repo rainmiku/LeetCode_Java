@@ -21,4 +21,22 @@ public class LC287 {
 
     }
 
+    public int findDuplicateLink(int[] nums){
+        int slow = nums[0];
+        int fast = nums[nums[0]];
+
+        while (true){
+            if (fast == slow){
+                slow = 0;
+                while (slow!=fast){
+                    slow = nums[slow];
+                    fast = nums[fast];
+                }
+                return slow;
+            }
+            slow = nums[slow];
+            fast = nums[nums[fast]];
+        }
+    }
+
 }

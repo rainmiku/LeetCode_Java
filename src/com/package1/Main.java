@@ -6,13 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC220();
+        var solution = new LC079();
 
-        int[] nums = {0,2147483647};
+        char[][]board = {{'a','b'}};
 
 
 
-        System.out.println(solution.containsNearbyAlmostDuplicate(nums,1,2147483647));
+        System.out.println(solution.exist(board,"ab"));
 
         System.out.println("ddd");
 

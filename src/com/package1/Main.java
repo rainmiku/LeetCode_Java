@@ -6,13 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC079();
+        var solution = new LC905();
 
-        char[][]board = {{'a','b'}};
+        int[] A = {3,1,2,4};
 
 
 
-        System.out.println(solution.exist(board,"ab"));
+        System.out.println(Arrays.toString(solution.sortArrayByParity(A)));
 
         System.out.println("ddd");
 

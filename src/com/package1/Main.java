@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC1020();
+        var solution = new LC167();
 
-        int[][]A = {{0,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,0}};
+        int[] numbers = {2,7,11,15};
 
-        System.out.println(solution.numEnclaves(A));
+        System.out.println(Arrays.toString(solution.twoSum(numbers, 9)));
         System.out.println("ddd");
 
     }

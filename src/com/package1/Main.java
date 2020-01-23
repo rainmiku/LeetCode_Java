@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC064();
+        var solution = new LC1020();
 
-        int[][] grid = {{1,3,1},{1,5,1},{4,2,1}};
+        int[][]A = {{0,0,0,0},{1,0,1,0},{0,1,1,0},{0,0,0,0}};
 
-        System.out.println(solution.minPathSum(grid));
+        System.out.println(solution.numEnclaves(A));
         System.out.println("ddd");
 
     }

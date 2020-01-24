@@ -6,11 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC167();
+        var solution = new LC441();
 
-        int[] numbers = {2,7,11,15};
 
-        System.out.println(Arrays.toString(solution.twoSum(numbers, 9)));
+        System.out.println(solution.arrangeCoins(10));
         System.out.println("ddd");
 
     }

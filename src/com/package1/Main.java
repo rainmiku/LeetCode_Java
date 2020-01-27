@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC553();
+        var solution = new LC658();
 
-        int[] nums = {1000,100,10};
+        int[] arr = {1,2,3,4,5};
 
 
-        System.out.println(solution.optimalDivision(nums));
+        System.out.println(solution.findClosestElements(arr,4,5));
         System.out.println("ddd");
 
     }

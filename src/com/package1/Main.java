@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC150();
+        var solution = new LC553();
 
-        String[] token = new String[]{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"};
+        int[] nums = {1000,100,10};
 
 
-        System.out.println(solution.evalRPN(token));
+        System.out.println(solution.optimalDivision(nums));
         System.out.println("ddd");
 
     }

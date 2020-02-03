@@ -6,10 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC1221();
+        var solution = new LC1103();
 
 
-        System.out.println(solution.balancedStringSplit("RLRRRLLRLL"));
+
+
+        System.out.println(Arrays.toString(solution.distributeCandies(10, 3)));
 
 
         System.out.println("ddd");

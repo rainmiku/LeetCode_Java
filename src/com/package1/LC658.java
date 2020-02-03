@@ -9,11 +9,8 @@ public class LC658 {
 
         int closeIdx = binarySearch(arr,x);
 
-        System.out.println(closeIdx);
-
         int left = closeIdx, right = closeIdx;
-
-
+        
         while (right-left < k-1){
             if (left <= 0){
                 right++;

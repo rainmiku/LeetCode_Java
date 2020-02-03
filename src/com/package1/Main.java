@@ -6,12 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC658();
+        var solution = new LC105();
 
-        int[] arr = {1,2,3,4,5};
+        int[] preorder = {1,2,4,5,7,8,3,6};
+        int[] inorder = {4,2,7,5,8,1,3,6};
+
+        TreeNode root = solution.buildTree(preorder,inorder);
 
 
-        System.out.println(solution.findClosestElements(arr,4,5));
         System.out.println("ddd");
 
     }

@@ -37,5 +37,4 @@ public class LC105 {
         return -1;
     }
 
-
 }

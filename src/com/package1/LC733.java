@@ -16,6 +16,7 @@ public class LC733 {
         ArrayDeque<Pos> deque = new ArrayDeque<>();
         deque.add(new Pos(sr,sc));
 
+        int[][] dirs = {{0, -1}, {-1, 0}, {0, 1}, {1, 0}};
         while (!deque.isEmpty()){
             Pos current = deque.pop();
             int x = current.x;
@@ -23,14 +24,12 @@ public class LC733 {
 
             int color = image[x][y];
 
-            if(isValid(image,x-1,y,color,newColor))
-                deque.add(new Pos(x-1,y));
-            if(isValid(image,x+1,y,color,newColor))
-                deque.add(new Pos(x+1,y));
-            if(isValid(image,x,y-1,color,newColor))
-                deque.add(new Pos(x,y-1));
-            if(isValid(image,x,y+1,color,newColor))
-                deque.add(new Pos(x,y+1));
+            for (int[] dir: dirs) {
+                int i = x+dir[0];
+                int j = y+dir[1];
+                if (isValid(image,i,j,color,newColor))
+                    deque.add(new Pos(i,j));
+            }
 
             image[x][y] = newColor;
         }

@@ -6,12 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC733();
+        var solution = new LC640();
 
-        int[][] image = {{1,1,1},{1,1,0},{1,0,1}};
+        String e = "x+5-3+x=6+x-2";
 
 
-        System.out.println(Arrays.deepToString(solution.floodFill(image, 1, 1, 2)));
+        System.out.println(solution.solveEquation(e));
 
 
         System.out.println("ddd");

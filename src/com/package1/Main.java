@@ -8,7 +8,7 @@ public class Main {
 
         var solution = new LC640();
 
-        String e = "x+5-3+x=6+x-2";
+        String e = "-x=-1";
 
 
         System.out.println(solution.solveEquation(e));

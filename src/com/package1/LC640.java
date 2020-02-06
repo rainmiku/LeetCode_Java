@@ -29,7 +29,8 @@ public class LC640 {
 
         int[] coe = new int[2];
 
-        s = "+" + s;
+        if (s.charAt(0) != '-')
+            s = "+" + s;
         char[] c = s.toCharArray();
         String num = "";
         for (int i = c.length-1; i >=0; i--) {
@@ -40,7 +41,6 @@ public class LC640 {
 
             if (num.charAt(num.length()-1) == 'x'){
                 String coeX = (num.length()==1) ? "1" : num.substring(0,num.length()-1);
-                System.out.println(coeX);
                 if (c[i] == '+')
                     coe[0] += Integer.parseInt(coeX);
                 else

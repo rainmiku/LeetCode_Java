@@ -6,10 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC319();
+        var solution = new LC344();
+        char[] s = {'1'};
 
-
-        System.out.println(solution.bulbSwitch(3));
+        solution.reverseString(s);
+        System.out.println(s);
 
         System.out.println("ddd");
 

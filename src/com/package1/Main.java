@@ -6,13 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC640();
-
-        String e = "-x=-1";
+        var solution = new LC319();
 
 
-        System.out.println(solution.solveEquation(e));
-
+        System.out.println(solution.bulbSwitch(3));
 
         System.out.println("ddd");
 

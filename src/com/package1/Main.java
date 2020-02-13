@@ -6,12 +6,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC344();
-        char[] s = {'1'};
-
-        solution.reverseString(s);
-        System.out.println(s);
-
+        int k = 3;
+        int[] arr = {4,5,8,2};
+        KthLargest kthLargest = new KthLargest(3, arr);
+        System.out.println(kthLargest.add(3));
+        System.out.println(kthLargest.add(5));
+        System.out.println(kthLargest.add(10));
+        System.out.println(kthLargest.add(9));
+        System.out.println(kthLargest.add(4));
         System.out.println("ddd");
 
     }

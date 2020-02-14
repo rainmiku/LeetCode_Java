@@ -26,6 +26,4 @@ public class KthLargest {
 
         return queue.peek();
     }
-
-
 }

@@ -9,7 +9,6 @@ public class LC026 {
             if (nums[right] != nums[left-1])
                 nums[left++] = nums[right];
         }
-        System.out.println(Arrays.toString(nums));
         return left;
     }
 }

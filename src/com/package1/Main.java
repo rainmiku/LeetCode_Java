@@ -6,12 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC030();
+        var solution = new LC026();
 
-        String s = "barfoothefoobarman";
-        String[] words = {"foo","bar"};
+        int[] nums = {0,0,1,1,1,2,2,3,3,4};
 
-        System.out.println(solution.findSubstring(s,words));
+        System.out.println(solution.removeDuplicates(nums));
         System.out.println("ddd");
 
     }

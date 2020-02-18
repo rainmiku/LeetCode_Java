@@ -6,11 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC904();
+        var solution = new LC030();
 
-        int[] tree = {3,3,3,1,2,1,1,2,3,3,4};
+        String s = "barfoothefoobarman";
+        String[] words = {"foo","bar"};
 
-        System.out.println(solution.totalFruit(tree));
+        System.out.println(solution.findSubstring(s,words));
         System.out.println("ddd");
 
     }

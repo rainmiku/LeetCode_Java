@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC026();
+        var solution = new LC015();
 
-        int[] nums = {0,0,1,1,1,2,2,3,3,4};
+        int[] nums = {-2,0,0,2,2};
 
-        System.out.println(solution.removeDuplicates(nums));
+        System.out.println(solution.threeSum(nums));
         System.out.println("ddd");
 
     }

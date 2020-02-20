@@ -8,7 +8,7 @@ public class Main {
 
         var solution = new LC1017();
 
-        System.out.println(solution.baseNeg2(10));
+        System.out.println(solution.baseNeg2(4));
         System.out.println("ddd");
 
     }

@@ -6,12 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC713();
+        var solution = new LC056();
 
-        int[] nums = {10, 5, 2, 6};
-        int k = 11;
+        int[][] inte = {{8,10},{1,3},{2,6},{15,18}};
 
-        System.out.println(solution.numSubarrayProductLessThanK(nums,k));
+        System.out.println(Arrays.deepToString(solution.merge(inte)));
         System.out.println("ddd");
 
     }

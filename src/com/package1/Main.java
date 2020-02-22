@@ -6,9 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC1017();
+        var solution = new LC055();
 
-        System.out.println(solution.baseNeg2(4));
+        int[] nums = {};
+
+        System.out.println(solution.canJump(nums));
         System.out.println("ddd");
 
     }

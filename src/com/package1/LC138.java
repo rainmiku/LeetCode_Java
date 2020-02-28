@@ -3,19 +3,19 @@ package com.package1;
 import java.util.HashMap;
 
 public class LC138 {
-    public Node copyRandomList(Node head) {
+    public TNode copyRandomList(TNode head) {
 
         if (head == null) return null;
 
-        Node headCopy = new Node(head.val,null,null);
-        Node current = head;
-        Node currentCopy = headCopy;
+        TNode headCopy = new TNode(head.val,null,null);
+        TNode current = head;
+        TNode currentCopy = headCopy;
 
-        HashMap<Node,Node> map = new HashMap<>();
+        HashMap<TNode, TNode> map = new HashMap<>();
 
         while (current.next!=null)
         {
-             currentCopy.next = new Node(current.next.val, null, null);
+             currentCopy.next = new TNode(current.next.val, null, null);
              map.put(current,currentCopy);
              current = current.next;
              currentCopy = currentCopy.next;

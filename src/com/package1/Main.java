@@ -1,16 +1,16 @@
 package com.package1;
 
-import java.util.Arrays;
+import com.package1.Contest178.LC5345;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC1191();
+        var solution = new LC5345();
 
-        int[] arr = {1,2};
+        String[] s = {"ZMNAGUEDSJYLBOPHRQICWFXTVK"};
 
-        System.out.println(solution.kConcatenationMaxSum(arr,3));
+        System.out.println(solution.rankTeams(s));
         System.out.println("ddd");
 
     }

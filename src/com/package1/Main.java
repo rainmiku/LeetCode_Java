@@ -1,6 +1,6 @@
 package com.package1;
 
-import com.package1.Contest178.*;
+import com.package1.Contest179.*;
 
 import java.util.Arrays;
 
@@ -8,13 +8,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC046();
+        var solution = new LC5355();
 
 
-        int[] nums = {1,2,3};
-        int k = 3;
+        int n = 7;
+        int[][] edges = {{1,2},{1,3},{1,7},{2,4},{2,6},{3,5}};
 
-        System.out.println(solution.permute(nums));
+
+        System.out.println(solution.frogPosition(n,edges,20,6));
 
         System.out.println("ddd");
 

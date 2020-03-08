@@ -8,13 +8,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC480();
+        var solution = new LC046();
 
 
-        int[] nums = {-2147483648,-2147483648,2147483647,-2147483648,-2147483648,-2147483648,2147483647,2147483647,2147483647,2147483647,-2147483648,2147483647,-2147483648};
+        int[] nums = {1,2,3};
         int k = 3;
 
-        System.out.println(Arrays.toString(solution.medianSlidingWindow(nums,k)));
+        System.out.println(solution.permute(nums));
 
         System.out.println("ddd");
 

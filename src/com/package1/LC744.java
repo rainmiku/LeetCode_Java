@@ -6,11 +6,7 @@ public class LC744 {
 
         while (start <= end){
             int mid = start + (end-start)/2;
-            if (letters[mid] == target){
-                start = mid+1;
-                break;
-            }
-            if (letters[mid] < target)
+            if (letters[mid] <= target)
                 start = mid+1;
             else
                 end = mid-1;

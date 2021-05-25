@@ -8,13 +8,17 @@ public class Main {
 
     public static void main(String[] args) {
 
-       var solution = new LC215();
+        var solution = new LC234();
 
-       int[] nums = {3,2,3,1,2,4,5,5,6};
+       int[] a = {1,2};
 
-        System.out.println(solution.findKthLargest(nums,4));
+       ListNode head = LinkList.createLinkedList(a);
+       System.out.println(solution.isPalindrome(head));
 
-        System.out.println("ddd");
+        //LinkList.printLinkedList(head);
+
+
+       System.out.println("null");
 
     }
 

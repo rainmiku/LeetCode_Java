@@ -6,9 +6,8 @@ public class LC654 {
     }
 
     public TreeNode constuct(int[] nums, int l, int r){
-        if (l == r) return new TreeNode(nums[l]);
         if (l > r) return null;
-        int maxIndex=-1, max = 0;
+        int maxIndex=-1, max = -1;
         for (int i = l; i <= r; i++) {
             if (nums[i] > max){
                 max = nums[i];

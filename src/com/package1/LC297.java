@@ -96,6 +96,7 @@ public class LC297 {
             } else {
                 parent.left = null;
             }
+            if (i == nodes.length) break;
             // 父节点对应的右侧子节点的值
             String right = nodes[i++];
             if (!right.equals("null")) {

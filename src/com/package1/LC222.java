@@ -1,8 +1,5 @@
 package com.package1;
 
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 public class LC222 {
 
     public int countNodes(TreeNode root) {

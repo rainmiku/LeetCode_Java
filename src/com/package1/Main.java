@@ -9,16 +9,16 @@ public class Main {
     public static void main(String[] args) {
 
         var solution = new LC297();
-        var s = new LC993();
+        var s = new LC257();
 
-       String a = "1,2,5,3,null,null,6,4,";
+       String a = "1,2,3,null,5";
 
 
        TreeNode root = solution.deserializeLevel(a);
 
-       boolean r = s.isCousins(root,3,6);
+       s.binaryTreePaths(root);
 
-       System.out.println(r);
+       System.out.println("complete");
 
     }
 

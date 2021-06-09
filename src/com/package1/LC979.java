@@ -12,6 +12,6 @@ public class LC979 {
         int right = distributeCoinsS(root.right);
 
         moves += Math.abs(left) + Math.abs(right);
-        return root.val+left + right - 1;
+        return root.val + left + right - 1;
     }
 }

@@ -9,12 +9,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String words[] = {"caaaaa","aaaaaaaaa","a","bbb","bbbbbbbbb","bbb","cc","cccccccccccc","ccccccc","ccccccc","cc","cccc","c","cccccccc","c"};
+        String word1 = "";
+        String word2 = "a";
 
-        var solution = new LC5874().makeEqual(words);
+        var solution = new LC072();
 
 
-       System.out.println(solution);
+       System.out.println(solution.minDistance(word1,word2));
 
     }
 

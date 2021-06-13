@@ -1,6 +1,7 @@
 package com.package1;
 
 import com.package1.Contest179.*;
+import com.package1.Contest245.*;
 
 import java.util.Arrays;
 
@@ -8,19 +9,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var solution = new LC297();
-        var s = new LC617();
+        String words[] = {"caaaaa","aaaaaaaaa","a","bbb","bbbbbbbbb","bbb","cc","cccccccccccc","ccccccc","ccccccc","cc","cccc","c","cccccccc","c"};
 
-       String a = "1,2,3,5";
-       String b = "2,1,3,null,4,null,7";
+        var solution = new LC5874().makeEqual(words);
 
 
-       TreeNode root1 = solution.deserializeLevel(a);
-       TreeNode root2 = solution.deserializeLevel(b);
-
-       s.mergeTrees(root1,root2);
-
-       System.out.println("complete");
+       System.out.println(solution);
 
     }
 

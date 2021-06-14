@@ -26,11 +26,9 @@ public class LC811 {
         }
 
         ArrayList<String> list = new ArrayList<>();
-        for (var level: map.keySet()) {
-            StringBuilder sb = new StringBuilder();
-            sb.append(map.get(level)).append(" ").append(level);
-            list.add(sb.toString());
-        }
+        for (var level: map.keySet())
+            list.add(map.get(level) + " " + level);
+
 
         return list;
 

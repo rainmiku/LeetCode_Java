@@ -9,13 +9,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String word1 = "";
-        String word2 = "a";
+        String[] s = {"9001 discuss.leetcode.com"};
 
-        var solution = new LC072();
+        var solution = new LC811();
 
 
-       System.out.println(solution.minDistance(word1,word2));
+       System.out.println(solution.subdomainVisits(s));
 
     }
 

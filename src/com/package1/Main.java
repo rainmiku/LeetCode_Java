@@ -9,12 +9,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        String[] s = {"9001 discuss.leetcode.com"};
+        String s = "(1+(4+5+2)-3)+(6+8)";
 
-        var solution = new LC811();
+        var solution = new LC224();
 
 
-       System.out.println(solution.subdomainVisits(s));
+       System.out.println(solution.calculate(s));
 
     }
 
